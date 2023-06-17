@@ -34,5 +34,5 @@ public class CardDeliverySelenideTest {
                 .shouldBe(Condition.visible, Duration.ofSeconds(15))
                 .shouldHave(Condition.exactText("Встреча успешно забронирована на " + currentDate));
     }
-
+}
 
