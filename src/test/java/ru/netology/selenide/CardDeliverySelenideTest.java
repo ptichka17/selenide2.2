@@ -30,6 +30,3 @@ public class CardDeliverySelenideTest {
         $(".notification__content").shouldBe(Condition.visible, Duration.ofSeconds(15)).shouldHave(Condition.exactText("Встреча успешно забронирована на " + currentDate));
     }
 }
-
-
-
